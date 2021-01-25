@@ -11,4 +11,4 @@ spec:
   dataSourceName: "root:password@(192.168.99.127:30685)/test-db"
   # Image name with version
   # Refer https://registry.hub.docker.com/r/prom/mysqld-exporter for more details
-  image: "prom/mysqld-exporter"
+  image: "orange-prep-harbor.nokia-solution.com/library/mysqld-exporter"
