@@ -16,7 +16,7 @@ spec:
   password: db-user 
 
   # Image name with version
-  image: "mariadb/server:10.3"
+  image: "orange-prep-harbor.nokia-solution.com/library/mariadb/server:10.3"
 
   # Database storage Path
   dataStoragePath: "/mnt/data" 
@@ -26,5 +26,3 @@ spec:
 
   # Port number exposed for Database service 
   port: 30685
-
-
