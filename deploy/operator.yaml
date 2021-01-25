@@ -16,7 +16,7 @@ spec:
       containers:
         - name: mariadb-operator
           # Replace this with the built image name
-          image: quay.io/manojdhanorkar/mariadb-operator:v0.0.4
+          image: orange-prep-harbor.nokia-solution.com/library/mariadb-operator:0.0.4
           command:
           - mariadb-operator
           imagePullPolicy: Always
