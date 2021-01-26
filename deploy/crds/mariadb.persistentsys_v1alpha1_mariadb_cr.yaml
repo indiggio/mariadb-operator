@@ -10,10 +10,10 @@ spec:
   rootpwd: password
 
   # New Database name
-  database: test-db
+  database: orange
   # Database additional user details (base64 encoded)
-  username: db-user 
-  password: db-user 
+  username: orange
+  password: orange
 
   # Image name with version
   image: "orange-prep-harbor.nokia-solution.com/library/mariadb/server:10.3"
