@@ -9,7 +9,3 @@ parameters:
   encrypted: "true"
 volumeBindingMode: Immediate
 reclaimPolicy: Delete
-allowedTopologies:
-  - matchLabelExpressions:
-    - key: failure-domain.beta.kubernetes.io/zone
-      values: [us-east-1]
